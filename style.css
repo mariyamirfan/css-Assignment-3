@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topsite{
+    background-image: url(bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 90%;
+}
+.container .btnone{
+    background-color: rgb(0, 0, 255);
+    padding: 16px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container .btnone:hover{
+    background-color: #fff;
+    color:  rgb(0, 0, 255);
+}
+.container .btntwo{
+    background-color: transparent;
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 255);
+}
+.container .btntwo:hover{
+    background-color: rgb(0, 0, 255);
+    color: #fff;
+}
+.section1{
+    background-image: url(card\ bg.webp);
+}
+.about{
+    background: #f7f7f7;
+    background-image: url(about\ bg.webp);
+    padding-top: 100px;
+}
